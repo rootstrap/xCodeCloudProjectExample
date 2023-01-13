@@ -1,0 +1,10 @@
+coverage_service: cobertura_xml
+workspace: RSXcodeCloudExample.xcworkspace
+xcodeproj: RSXcodeCloudExample.xcodeproj
+scheme: RSXcodeCloudExample-develop
+binary_basename: RSXcodeCloudExample-Debug
+ignore:
+  - Pods/*
+  - RSXcodeCloudExample/Extensions/UIImageExtension.swift
+  - R.generated.swift
+  - RSXcodeCloudExample/AppDelegate.swift
