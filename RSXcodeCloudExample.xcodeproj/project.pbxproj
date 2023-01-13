@@ -116,7 +116,6 @@
 		9B0C72691C738D3400BAF3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
 		9B0C726A1C738D3400BAF3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0C726D1C738D3400BAF3B1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B12AF6B1F269B03005FD465 /* ThirdPartyKeys.example.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThirdPartyKeys.example.plist; sourceTree = "<group>"; };
 		9B2D00FF278CB1C2000657BE /* AuthEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEndpoint.swift; sourceTree = "<group>"; };
 		9B2D0101278DE207000657BE /* UserEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndpoint.swift; sourceTree = "<group>"; };
 		9B2F322B28999F2100D9C710 /* APIClient+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Application.swift"; sourceTree = "<group>"; };
@@ -394,7 +393,6 @@
 			children = (
 				FD7286722971C63D00C55158 /* GoogleService-Info.plist */,
 				9B9C6BFD20C7160700EB0523 /* README.md */,
-				9B12AF6B1F269B03005FD465 /* ThirdPartyKeys.example.plist */,
 				07276EB123F5CC460089C0AD /* RSXcodeCloudExampleUITests */,
 				9B5E1436245B2AA00059DF62 /* RSXcodeCloudExampleUnitTests */,
 				9B5AFADB1C7205EC002347D6 /* Products */,
