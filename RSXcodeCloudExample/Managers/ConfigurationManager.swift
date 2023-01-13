@@ -29,7 +29,8 @@ class ConfigurationManager: NSObject {
     
     print("""
       \(propertyList).plist NOT FOUND -
-      Please check your project configuration in: \n https://github.com/rootstrap/RSXcodeCloudExample
+      Please check your project configuration in:
+    \n https://github.com/rootstrap/RSXcodeCloudExample
     """)
     return nil
   }

@@ -50,8 +50,6 @@
 		9BAFB7C32114E3CD0099DC61 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFB7C22114E3CD0099DC61 /* SignInViewModel.swift */; };
 		9BD01E361F01641E007255E3 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD01E351F01641E007255E3 /* DictionaryExtension.swift */; };
 		9BFA84F31C776827009F64E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFA84F21C776827009F64E4 /* LaunchScreen.storyboard */; };
-		BB83CFA64940E660BA4A4420 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		E59EB5E2CE360C64F9DB38FF /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		E81171921DE5EFB7003D3DF5 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81171911DE5EFB7003D3DF5 /* ViewControllerExtension.swift */; };
 		E8290BFE1D832D9200599960 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8290BFD1D832D9200599960 /* ViewExtension.swift */; };
 		E8290C021D8330A800599960 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8290C011D8330A800599960 /* StringExtension.swift */; };
@@ -59,6 +57,7 @@
 		E8FBB1C11DD21D18000D6740 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FBB1C01DD21D18000D6740 /* SessionManager.swift */; };
 		FA54D5881E11C59600F0DBEA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54D5871E11C59600F0DBEA /* FirstViewController.swift */; };
 		FABDC9221EE1EB2B000DDAC3 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDC9211EE1EB2B000DDAC3 /* ConfigurationManager.swift */; };
+		FD7286732971C6CD00C55158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD7286722971C63D00C55158 /* GoogleService-Info.plist */; };
 		FD8C0272269E2F2E003F86CE /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C0271269E2F2E003F86CE /* UIConstants.swift */; };
 		FDFAAB07269CCCD30007DB8B /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFAAB06269CCCD30007DB8B /* LabelExtension.swift */; };
 		FDFAAB09269CCED70007DB8B /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFAAB08269CCED70007DB8B /* ButtonExtension.swift */; };
@@ -159,6 +158,7 @@
 		E9C31B61648676473C98614C /* Pods-RSXcodeCloudExample.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSXcodeCloudExample.staging.xcconfig"; path = "Target Support Files/Pods-RSXcodeCloudExample/Pods-RSXcodeCloudExample.staging.xcconfig"; sourceTree = "<group>"; };
 		FA54D5871E11C59600F0DBEA /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		FABDC9211EE1EB2B000DDAC3 /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		FD7286722971C63D00C55158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RSXcodeCloudExample/Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD8C0271269E2F2E003F86CE /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		FDFAAB06269CCCD30007DB8B /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
 		FDFAAB08269CCED70007DB8B /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
@@ -392,6 +392,7 @@
 		9B5AFAD11C7205EB002347D6 = {
 			isa = PBXGroup;
 			children = (
+				FD7286722971C63D00C55158 /* GoogleService-Info.plist */,
 				9B9C6BFD20C7160700EB0523 /* README.md */,
 				9B12AF6B1F269B03005FD465 /* ThirdPartyKeys.example.plist */,
 				07276EB123F5CC460089C0AD /* RSXcodeCloudExampleUITests */,
@@ -694,6 +695,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFAAB0B269CD56D0007DB8B /* Localizable.strings in Resources */,
+				FD7286732971C6CD00C55158 /* GoogleService-Info.plist in Resources */,
 				9BFA84F31C776827009F64E4 /* LaunchScreen.storyboard in Resources */,
 				9B0C72721C738D3400BAF3B1 /* Assets.xcassets in Resources */,
 			);
@@ -878,7 +880,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$SRCROOT/R.generated.swift",
+				$SRCROOT/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
