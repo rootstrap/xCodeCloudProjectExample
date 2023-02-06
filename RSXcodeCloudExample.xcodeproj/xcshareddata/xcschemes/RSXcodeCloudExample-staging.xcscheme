@@ -126,6 +126,13 @@
             ReferencedContainer = "container:RSXcodeCloudExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "FACEBOOK_KEY"
+            value = "1234"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Staging"
